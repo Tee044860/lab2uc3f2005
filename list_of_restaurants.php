@@ -22,9 +22,9 @@
           <?php
                 $serverName = "lab2exercisetp044860.database.windows.net";
                 $connectionOptions = array(
-                                       "Database" => "lab2exercisetp044860",
-                                       "Uid" => "apuadmin",
-                                      "PWD" => "TP044860**);
+                                      "Database" => "lab2exercisetp044860",
+                                      "Uid" => "apuadmin",
+                                      "PWD" => "TP044860**");
 
               //Establishes the connection
                $conn = sqlsrv_connect($serverName, $connectionOptions);
