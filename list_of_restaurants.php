@@ -20,7 +20,7 @@
             <th>03-22441234</th>
           </tr>
           <?php
-                $connectionInfo = array("UID" => "apuadmin", "pwd" => "TP044860**", "Database" => "apulab2exercisetp044860",
+                $connectionInfo = array("UID" => "apuadmin", "pwd" => "TP044860**", "Database" => "apulab2exercise",
                 "LoginTimeout" => 30, "Encrypt" => 1, "TrustServerCertificate" => 0);
                 $serverName = "tcp:lab2exercisetp044860.database.windows.net,1433";
                 $conn = sqlsrv_connect($serverName, $connectionInfo);
