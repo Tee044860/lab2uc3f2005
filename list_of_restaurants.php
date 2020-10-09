@@ -22,7 +22,7 @@
           <?php
                 $serverName = "lab2exercisetp044860.database.windows.net";
                 $connectionOptions = array(
-                                       "Database" => "lab2exercise",
+                                       "Database" => "lab2exercisetp044860",
                                        "Uid" => "apuadmin",
                                       "PWD" => "TP044860**);
 
